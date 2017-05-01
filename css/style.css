@@ -53,6 +53,15 @@ html, body{
    .container {
      width: 750px;
    }
+    .one-half {
+     width:36%;
+   }
+   .one-third {
+     width:22%;
+   }
+   .one-fourth {
+     width:15%;
+   }
  }
  @media (min-width: 992px) {
    .container {
@@ -130,6 +139,7 @@ html, body{
    margin:3em auto 0;
  }
 
+
   /* BUTTONS */
  .btn {
    border-radius: 4px;
@@ -141,4 +151,5 @@ html, body{
    border: 2px solid #377E7F;
    box-shadow: 0px 2px 0px 0px #4B6868;
  }
+
 
