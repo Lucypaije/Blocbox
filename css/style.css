@@ -127,12 +127,15 @@ html, body{
    font-size:48px;
    font-weight: normal;
    margin:95px 0 0;
+   text-align: center;
+   position: absolute;
  }
  header .hero p {
    font-size: 22px;
    line-height: 26px;
    font-weight: 100;
    margin:10px 0 40px;
+   position: absolute;
  }
  header .hero img {
    display: block;
@@ -150,11 +153,12 @@ html, body{
    background: #377E7F;
    border: 2px solid #377E7F;
    box-shadow: 0px 2px 0px 0px #4B6868;
+   position: absolute;
  }
 
   /* BENEFITS */
 .benefits {
-   background color: #e2e2e2 ;
+   background-color: #e2e2e2 ;
  }
  .benefits {
    text-align: center;
@@ -191,8 +195,9 @@ html, body{
  .testimonials ul li {
    list-style-type: none;
  }
-  .testimonials p class="name" {
+  .testimonials li p {
    color: #377E7F;
+   font-weight: bold;
  }
   .testimonials blockquote {
    color:#000000;
@@ -205,16 +210,17 @@ html, body{
 
 /* PRICING */
 .pricing {
-   background color: #e2e2e2;
-   padding:4em 0;
+   background-color: #e2e2e2;
+   padding:4em;
    text-align: center;
    position:relative;
    text-decoration: none;
 }
 
-.pricing ul li {
+.pricing li {
    list-style-type: none;
    display: inline-block;
+   text-decoration: none;
 }
 
 .pricing h2 {
@@ -222,11 +228,58 @@ html, body{
    line-height: 1.5;
    text-decoration: none;
 }
-
-.pricing p {
-   padding: 8px;
+.pricing li p {
+   margin-top: 8px;
+   margin-bottom: 30px;
    display: inline-block;
    width: 320px;
+   color: #000000;
 }
 
+ /* FOOTER */
+ footer {
+   background-color: #FFFFFF;
+   color: #000000;
+   height: 150px;
+   position: absolute;
+   overflow: hidden;
+   z-index: 0;
+ }
+  footer p, footer nav ul {
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: 10px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#000000;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: transparent;
+ }
+ footer .logo{
+   padding: 2.35em 0;
+   margin: 0 auto;
+   display: block;
+ }
+ @media (min-width: 992px){
+   footer{
+     background-color: #FFFFFF;
+  }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: left;
+   }
+   footer .right-footer-block {
+     background-color: #FFFFFF;
+   }
+   footer .logo{
+     padding: 2em 0 2em 1.5em;
+   }
+ }
 
