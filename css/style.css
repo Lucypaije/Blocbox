@@ -78,6 +78,7 @@ html, body{
  header {
    color:#FFFFFF;
  }
+
  header nav {
    padding:1em 0;
  }
@@ -127,5 +128,17 @@ html, body{
  header .hero img {
    display: block;
    margin:3em auto 0;
+ }
+
+  /* BUTTONS */
+ .btn {
+   border-radius: 4px;
+   color:#FFFFFF;
+   font-weight: 700;
+   text-decoration: none;
+   padding:10px 30px;
+   background: #377E7F;
+   border: 2px solid #377E7F;
+   box-shadow: 0px 2px 0px 0px #4B6868;
  }
 
