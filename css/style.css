@@ -213,20 +213,17 @@ html, body{
    background-color: #e2e2e2;
    padding:4em;
    text-align: center;
-   position:relative;
-   text-decoration: none;
+   position: relative;
 }
 
 .pricing li {
    list-style-type: none;
    display: inline-block;
-   text-decoration: none;
 }
 
 .pricing h2 {
    font-weight: bold;
    line-height: 1.5;
-   text-decoration: none;
 }
 .pricing li p {
    margin-top: 8px;
@@ -236,12 +233,13 @@ html, body{
    color: #000000;
 }
 
+
  /* FOOTER */
  footer {
    background-color: #FFFFFF;
    color: #000000;
    height: 150px;
-   position: absolute;
+   position: relative;
    overflow: hidden;
    z-index: 0;
  }
