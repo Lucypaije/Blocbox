@@ -19,6 +19,12 @@ html, body{
    font-weight: 100;
  }
 
+ <head>
+  <link rel="stylesheet" href="animate.min.css">
+<h1 class="animated fadeIn">SAVE, SHARE AND COLLABORATE</h1>
+</head>
+
+
   /* GRID */
  .container {
    margin-right: auto;
@@ -43,4 +49,3 @@ html, body{
    margin:0 2% 20px;
  }
 
- 
