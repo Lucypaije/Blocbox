@@ -321,6 +321,7 @@ html, body{
    width:14.66666667%;
    color:#FFFFFF;
    background: #FFFFFF;
+   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.40);
    float:left;
    position: fixed;
    display:block;
@@ -355,6 +356,9 @@ html, body{
    text-decoration: none;
    font-weight: 100;
  }
+.left-nav .items ul > li a:hover {
+   color:#E2E2E2;
+ }
  .left-nav .items ul li a i {
    width:16px;
    text-align: center;
@@ -373,7 +377,7 @@ html, body{
    padding:10px 0;
  }
  .left-nav .settings img {
-   height:35px;
+   height:40px;
    width:35px;
    border-radius: 50%;
    margin-left:10px;
@@ -411,7 +415,7 @@ html, body{
    font-weight: 100;
    margin:0 0 30px;
    font-size: 36px;
-   color: #3498DB;
+   color: #377E7F;
    line-height: 44px;
    float: left;
    display:inline-block;
@@ -427,7 +431,7 @@ html, body{
  }
  .item-box {
    display:block;
-   height:230px;
+   height:160px;
    background: #FFFFFF;
    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
    position: relative;
@@ -467,7 +471,6 @@ html, body{
      margin:0 1% 25px;
    }
  }
-
  /* Laptops and Desktops */
  @media (min-width:992px) {
    .content {
@@ -477,8 +480,12 @@ html, body{
      position: relative;
    }
    .content > .container {
-     width:auto;
+      width: auto;
    }
+ }
+
+
+ @media (min-width:1280px) {
    .content-item {
      width:23%;
      margin:0 1% 25px;
