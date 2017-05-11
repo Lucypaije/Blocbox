@@ -129,7 +129,7 @@ html, body{
  header .hero h1 {
    font-size:48px;
    font-weight: normal;
-   margin:95px 0 0;
+   margin:85px 0 0;
    text-align: center;
  }
  header .hero p {
@@ -196,9 +196,6 @@ html, body{
    color:#377E7F;
    font-weight: bold;
  }
- .testimonials p {
-   color:purple;
- }
  .testimonials ul li {
    list-style-type: none;
  }
@@ -235,6 +232,7 @@ html, body{
 .pricing h2 {
    font-weight: bold;
    line-height: 1.5;
+   color: #377E7F;
 
 }
 .pricing li p {
